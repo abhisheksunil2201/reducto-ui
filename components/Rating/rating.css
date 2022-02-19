@@ -1,0 +1,7 @@
+.stars {
+  display: flex;
+  align-items: center;
+}
+.star.disabled {
+  filter: grayscale(1);
+}

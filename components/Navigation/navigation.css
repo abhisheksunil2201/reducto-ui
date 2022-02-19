@@ -1,0 +1,23 @@
+.bottom-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--primary-color);
+  padding: 1rem;
+}
+.bottom-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  padding: 0.5rem;
+}
+.bottom-nav-item.active {
+  color: white;
+}
+.bottom-nav-item img {
+  margin-right: 0.5rem;
+}
+.bottom-nav-item.active img {
+  filter: invert(1);
+}

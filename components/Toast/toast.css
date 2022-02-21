@@ -1,0 +1,33 @@
+.toast {
+  width: fit-content;
+  padding: 1rem 3rem 1rem 1rem;
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background-color: white;
+  color: black;
+  border-radius: 0.3rem;
+  display: none;
+  margin: 0 0.3rem;
+  z-index: 99;
+}
+.toast-success {
+  background-color: var(--success-color);
+  color: white;
+}
+.toast-error {
+  color: white;
+  background-color: var(--danger-color);
+}
+.toast-warning {
+  background-color: var(--warning-color);
+  color: white;
+}
+.close-toast {
+  background-color: transparent;
+  border-radius: 50%;
+  border: none;
+  cursor: pointer;
+  right: 5px;
+  top: 15px;
+}

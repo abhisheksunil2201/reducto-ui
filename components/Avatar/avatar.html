@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ReductoUI | Avatar</title>
+    <link rel="stylesheet" href="/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/styles/atom-one-dark.min.css"
+      integrity="sha512-Fcqyubi5qOvl+yCwSJ+r7lli+CO1eHXMaugsZrnxuU4DVpLYWXTVoHy55+mCb4VZpMgy7PBhV7IiymC0yu9tkQ=="
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <div class="grid-container">
+      <div class="sidebar shadow-bottom" id="reducto-sidebar">
+        <a href="/index.html"><h1 class="logo">REDUCTO UI</h1></a>
+        <h2 class="nav-title">Components</h2>
+
+        <ul class="nav-links">
+          <li class="nav-link-item">
+            <a href="/components/Alert/alert.html">Alert</a>
+          </li>
+          <li class="nav-link-item active">
+            <a href="/components/Avatar/avatar.html">Avatar</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Badge/badge.html">Badge</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Button/button.html">Button</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Card/card.html">Card</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Grid/grid.html">Grid</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Image/image.html">Image</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Input/input.html">Input</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Text Utilities/text-utilities.html"
+              >Text Utilities</a
+            >
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Lists/lists.html">Lists</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Modal/modal.html">Modal</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Navigation/navigation.html">Navigation</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Rating/rating.html">Rating</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Slider/slider.html">Slider</a>
+          </li>
+          <li class="nav-link-item">
+            <a href="/components/Toast/toast.html">Toast</a>
+          </li>
+        </ul>
+        <div style="height: 1.5rem"></div>
+      </div>
+      <!-- Ham menu -->
+      <div class="ham-nav">
+        <a href="/index.html"><h1 class="ham-logo">REDUCTO UI</h1></a>
+        <div>
+          <img
+            id="ham-menu"
+            class="ham-menu"
+            src="/assets/ham-menu.svg"
+            alt=""
+          />
+        </div>
+      </div>
+      <section class="main">
+        <h1>Avatars</h1>
+        <p>
+          Avatars are user profile pictures, usually found in circular shapes.
+          Avatars can be used for 'container' objects — projects, spaces,
+          repositories, etcetera — to give them a recognisable visual identity.
+        </p>
+        <h3>Profile Avatar</h3>
+        <p>
+          Profile Avatars can be created using the class 'avatar', inside the
+          img tag.
+        </p>
+        <div class="example-container">
+          <div class="example-component">
+            <img
+              class="avatar"
+              src="https://mui.com/static/images/avatar/1.jpg"
+              alt="avatar-1"
+            />
+
+            <img
+              class="avatar"
+              src="https://mui.com/static/images/avatar/1.jpg"
+              alt="avatar-2"
+            />
+          </div>
+          <pre>
+            <code class="html">
+            &lt;img class="avatar" src="/assets/avatar.jpg" alt="avatar"&gt;
+            </code>
+          </pre>
+        </div>
+        <h3>Sizes</h3>
+        <p>
+          Size of the avatars can be changed by adding sm | md | lg class to the
+          existing avatar class.
+        </p>
+        <div class="example-container">
+          <div class="example-component">
+            <img
+              class="avatar sm"
+              src="https://mui.com/static/images/avatar/1.jpg"
+              alt="avatar-1"
+            />
+            <img
+              class="avatar md"
+              src="https://mui.com/static/images/avatar/1.jpg"
+              alt="avatar-1"
+            />
+            <img
+              class="avatar lg"
+              src="https://mui.com/static/images/avatar/1.jpg"
+              alt="avatar-1"
+            />
+          </div>
+          <pre>
+            <code class="html">
+            &lt;img class="avatar sm" src="/assets/avatar.jpg" alt="avatar"&gt;
+            &lt;img class="avatar md" src="/assets/avatar.jpg" alt="avatar"&gt;
+            &lt;img class="avatar lg" src="/assets/avatar.jpg" alt="avatar"&gt;
+            </code>
+          </pre>
+        </div>
+      </section>
+    </div>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/10.6.0/highlight.min.js"></script>
+    <script>
+      hljs.highlightAll();
+    </script>
+    <script src="/index.js"></script>
+  </body>
+</html>

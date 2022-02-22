@@ -73,6 +73,10 @@ a {
 .get-started-btn > a {
   color: var(--off-white);
 }
+.get-started {
+  width: 70%;
+  margin-top: 3rem;
+}
 /*SIDEBAR*/
 .sidebar {
   grid-area: sidebar;

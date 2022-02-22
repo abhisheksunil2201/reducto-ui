@@ -22,6 +22,9 @@
   --primary-black: #121212;
   --secondary-black: #252525;
   --cta-color: #ff4196;
+  --home-color: #001e3c;
+  --gray: lightgray;
+  --home-active: rgb(19, 47, 76);
 }
 
 .logo {
@@ -34,6 +37,42 @@ a {
   text-decoration: none;
 }
 
+/* Home page */
+.homepage {
+  background-color: var(--home-color);
+  color: var(--off-white);
+}
+.home-text {
+  width: 70%;
+  min-width: 500px;
+  margin: 2rem;
+  margin-top: 10rem;
+}
+.home-text > h1 {
+  font-size: 3rem;
+}
+.home-text > p {
+  color: var(--gray);
+  width: 70%;
+  margin-top: 2rem;
+}
+.get-started-btn {
+  background-color: var(--active-color);
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 1.2rem;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+.get-started-btn.github {
+  background-color: rgba(255, 255, 255, 0.1);
+  border: 1px solid var(--active-color);
+}
+.get-started-btn > a {
+  color: var(--off-white);
+}
 /*SIDEBAR*/
 .sidebar {
   grid-area: sidebar;
@@ -41,7 +80,7 @@ a {
   position: sticky;
   top: 0rem;
   height: 100%;
-  background-color: var(--secondary-black);
+  background-color: var(--home-color);
   scrollbar-width: none;
   grid-column: 1 / 2;
   min-width: 300px;
@@ -69,7 +108,7 @@ a {
 }
 .nav-link-item:hover,
 .nav-link-item.active {
-  background-color: #343434;
+  background-color: var(--home-active);
 }
 .nav-link-item > a {
   text-decoration: none;
